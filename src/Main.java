@@ -10,6 +10,7 @@ public class Main {
             System.out.println("Если возраст человека равен " + age + ", то он не достиг совершенолетия, нужно немного подождать");
         }
 
+
         //Задание 2
         System.out.println("Задание 2");
         int temperature = -5;
@@ -20,6 +21,7 @@ public class Main {
             System.out.println("На улице " + temperature + " градусов. Сегодня тепло, можно идти без шапки");
         }
 
+
         // Задание 3
         System.out.println("Задание 3");
         int speed = 70;
@@ -29,6 +31,7 @@ public class Main {
         } else {
             System.out.println("Если скорость " + speed + ", то можно ездить спокойно");
         }
+
 
         // Задание 4
         System.out.println("Задание 4");
@@ -46,19 +49,21 @@ public class Main {
             System.out.println("Слишком маленький возраст");
         }
 
+
         // Задание 5
         System.out.println("Задание 5");
         int ageChild = 7;
 
         if (ageChild < 5){
             System.out.println("Если возраст ребенка равен " +ageChild+ ", то ему нельзя кататься на аттракционе.");
-        } else if (ageChild >= 7 && ageChild <= 17) {
+        } else if (ageChild >= 5 && ageChild <= 14) {
             System.out.println("Если возраст человека равен " + ageChild + ", то ему можно кататься на аттракционе в сопровождении взрослого.");
-        } else if (ageChild >= 7 && ageChild <= 17) {
+        } else if (ageChild >= 14) {
             System.out.println("Если возраст человека равен " + ageChild + ", то ему можно кататься на аттракционе без сопровождения взрослого.");
         } else {
             System.out.println("Вы слишком маленький или взрослый");
         }
+
 
         // Задание 6
         System.out.println("Задание 6");
@@ -71,6 +76,7 @@ public class Main {
         } else {
             System.out.println("Вагон полность забит");
         }
+
 
         // Задание 7
         System.out.println("Задание 7");
